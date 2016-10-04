@@ -5,6 +5,51 @@
 body *{
   font-family : flat-jooza !important;
 }
+a {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+ul {
+  margin:0;
+  padding:0;
+
+}
+
+li {
+  list-style: none;
+}
+.header{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width:100px;
+  height:100px;
+  background-image: url("../../img/logo_brend_main.svg");
+  background-size: 55%;
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.nav {
+  margin:10px;
+}
+#navBar {
+  background-color: #E40046;
+  box-shadow: 1px 1px 3px #000000;
+
+}
+#content {
+  margin-top:30px;
+}
+.list_item {
+color:#f7f7f7;
+font-size: 24px;
+letter-spacing: 2px;
+}
+
 .wrap_all {
   max-width: 100%;
   margin:0 auto;
@@ -17,11 +62,12 @@ body *{
 .youtube_video {
   padding-bottom: 50px;
   border-bottom:1px solid #dadada;
+  height:550px;
 }
 .content_heading {
   font-weight: 300;
   color:#464646;
 }
 .comment_section {
-  
+
 }
