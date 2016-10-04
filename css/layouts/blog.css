@@ -1,0 +1,27 @@
+@font-face {
+    font-family: flat-jooza;
+    src: url('../../fonts/flat-jooza-regular.ttf');
+}
+body *{
+  font-family : flat-jooza !important;
+}
+.wrap_all {
+  max-width: 100%;
+  margin:0 auto;
+}
+.inner_wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.youtube_video {
+  padding-bottom: 50px;
+  border-bottom:1px solid #dadada;
+}
+.content_heading {
+  font-weight: 300;
+  color:#464646;
+}
+.comment_section {
+  
+}
